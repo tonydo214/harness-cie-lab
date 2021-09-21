@@ -67,13 +67,15 @@ pipeline:
                                 name: pushToDockerHub
                                 identifier: pushToDockerHub
                                 spec:
-                                    connectorRef: account.harnessImage
+                                    connectorRef: account.bootcampdockerhub
                                     repo: nikpap/payment-service
                                     tags:
                                         - tonydo214-latest
+                                    dockerfile: /harness/payment-service/Dockerfile
                                     optimize: true
                                     resources:
                                         limits:
                                             memory: 1Gi
                                             cpu: "1"
+                                failureStrategies: []
               variables: []
