@@ -28,6 +28,7 @@ env:
   config:
     # HARNESS_FF_KEY: <+pipeline.variables.ffsdkkeyprod>
     # HARNESS_SE: <+pipeline.variables.seusername>
+    # test
     HARNESS_FF_KEY: <+pipeline.variables.ffsdkkeyprod>
     HARNESS_SE: <+pipeline.variables.seusername>
     HARNESS_BUILD: <+pipeline.sequenceId>
