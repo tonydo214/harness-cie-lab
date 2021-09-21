@@ -55,10 +55,10 @@ public class CaptchaService extends AbstractCaptchaService {
      *  This piece of code is the actual evaluation of the feature flag
      *  Uncomment the three lines below in order to start validating - Enable/Disable feature flag from the UI
      */
-   if(result) {
+   /** if(result) {
     throw new BankValidationException("You have been selected for further bank validation, please call your bank");
     }
-    	
+    */	
         securityCheck(response);
 
         final URI verifyUri = URI.create(String.format(RECAPTCHA_URL_TEMPLATE, getReCaptchaSecret(), response, getClientIP()));
