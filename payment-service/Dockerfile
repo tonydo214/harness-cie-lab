@@ -1,4 +1,4 @@
-From tomcat:8.0.51-jre8-alpine
+From tomcat:8.0.51-jre8-alpine@sha256:8c19caad3ac527eb88a8d75448d40216819da15ebf433fbc97b0d8513a9a0767
 
 
 
